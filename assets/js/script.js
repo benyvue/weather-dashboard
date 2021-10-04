@@ -17,3 +17,11 @@ function createCityList(citySearchList) {
     $("#city-list").append(cityListEntry);
   }
 }
+
+var queryURL =
+"https://api.openweathermap.org/data/2.5/weather?&units=imperial&appid=885e9149105e8901c9809ac018ce8658&q=" +
+city;
+
+var queryURL2 =
+"https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=885e9149105e8901c9809ac018ce8658&q=" +
+city;
